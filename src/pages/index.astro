@@ -1,18 +1,20 @@
 ---
-const Title = "My Astro Page"
+import "../styles/global.css";
+
+const Title = "My Astro Page";
 ---
 
 <html lang="en">
-	<head>
-		<meta charset="utf-8" />
-		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-		<meta name="viewport" content="width=device-width" />
-		<meta name="generator" content={Astro.generator} />
-		<title>{Title}</title>
-	</head>
-	<body>
-		<h1>Xypf</h1>
+  <head>
+    <meta charset="utf-8" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta name="viewport" content="width=device-width" />
+    <meta name="generator" content={Astro.generator} />
+    <title>{Title}</title>
+  </head>
+  <body>
+    <h1>Xypf</h1>
     <a href="/about/">About</a>
     <a href="/blog/">Blog</a>
-	</body>
+  </body>
 </html>
